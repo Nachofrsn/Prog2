@@ -25,9 +25,9 @@ namespace ConsoleApp7
                     archivo = new FileStream("IngresoUsuario.csv", FileMode.Append);
                     grabador = new StreamWriter(archivo);
 
-                    Entradas(out int edad, out string nombre, out string apellido, out string direccion, out DateTime fecha, out int sueldo);
+                    Entradas(out int legajo, out int edad, out string nombre, out string apellido, out string direccion, out DateTime fecha, out int sueldo);
 
-                    string ingreso = $"{edad};{nombre};{apellido};{direccion};{fecha};{sueldo}";
+                    string ingreso = $"{legajo}{edad};{nombre};{apellido};{direccion};{fecha};{sueldo}";
                     grabador.WriteLine(ingreso);
                     grabador.Close();
                     archivo.Close();
@@ -44,7 +44,8 @@ namespace ConsoleApp7
                         string[] vector = renglon.Split(';');
                         //FORMATEAR EL RENGLON
                         string RenglonFormateado = "";
-                        foreach(string s in vector)
+                        //TAMBIEN SE PUEDE HACER: Console.WriteLine($"{vector[0].PadLeft(10)}{vector[1].PadLeft(10)}{vector[2].PadLeft(10)}");
+                        foreach (string s in vector)
                         {
                             RenglonFormateado += $"{s.PadLeft(10)}|";
                         }
@@ -52,28 +53,62 @@ namespace ConsoleApp7
                         Console.WriteLine(RenglonFormateado);
                     }
                     break;
-            }          
+                case 3:
+                    archivo = new FileStream("IngresoUsuario.csv", FileMode.Open);
+                    lector = new StreamReader(archivo);
+
+                    while (lector.EndOfStream == false)
+                    {
+                        //LEER RENGLON POR RENGLON
+                        string renglon = lector.ReadLine();
+                        //SEPARAR VALORES DENTRO DEL RENGLON
+                        string[] vector = renglon.Split(';');                    
+
+                        Console.WriteLine("ingrese legajo a buscar");
+                        int busqueda = int.Parse(Console.ReadLine());
+                        string cambio = busqueda.ToString();
+                      
+                        for (int i = 0; i < vector.Length; i++)
+                        {
+                            if (vector[i] == cambio)
+                            {
+                                Console.WriteLine("Se encontro el legajo.");
+                            }
+                            else
+                            {
+                                Console.WriteLine("No se encontro el legajo.");
+                            }
+                        }
+                    }
+                    break;
+            }
             Console.ReadKey();
         }
-        static void Entradas(out int edad, out string nombre, out string apellido, out string direccion, out DateTime fecha, out int sueldo)
-        {
-            Console.WriteLine("Ingrese edad");
-            edad = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Ingrese nombre");
-            nombre = Console.ReadLine();
+            static void Entradas(out int legajo, out int edad, out string nombre, out string apellido, out string direccion, out DateTime fecha, out int sueldo)
+            {
+                Console.WriteLine("Ingrese legajo");
+                legajo = int.Parse(Console.ReadLine());
+                string Cambio = legajo.ToString();
 
-            Console.WriteLine("Ingrese apellido");
-            apellido = Console.ReadLine();
+                Console.WriteLine("Ingrese edad");
+                edad = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Ingrese direccion");
-            direccion = Console.ReadLine();
+                Console.WriteLine("Ingrese nombre");
+                nombre = Console.ReadLine();
 
-            Console.WriteLine("Ingrese fecha");
-            fecha = DateTime.Parse(Console.ReadLine());
+                Console.WriteLine("Ingrese apellido");
+                apellido = Console.ReadLine();
 
-            Console.WriteLine("Ingrese sueldo");
-            sueldo = int.Parse(Console.ReadLine());
-        }
+                Console.WriteLine("Ingrese direccion");
+                direccion = Console.ReadLine();
+
+                Console.WriteLine("Ingrese fecha");
+                fecha = DateTime.Parse(Console.ReadLine());
+
+                Console.WriteLine("Ingrese sueldo");
+                sueldo = int.Parse(Console.ReadLine());
+            }
     }
 }
+
