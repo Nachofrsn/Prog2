@@ -1,0 +1,8 @@
+C:\programacion\Ej laboratorio\Programacion 2\Manejo de archivos\Manejo de archivos\bin\Debug\Manejo de archivos.exe.config
+C:\programacion\Ej laboratorio\Programacion 2\Manejo de archivos\Manejo de archivos\bin\Debug\Manejo de archivos.exe
+C:\programacion\Ej laboratorio\Programacion 2\Manejo de archivos\Manejo de archivos\bin\Debug\Manejo de archivos.pdb
+C:\programacion\Ej laboratorio\Programacion 2\Manejo de archivos\Manejo de archivos\obj\Debug\Manejo de archivos.csproj.AssemblyReference.cache
+C:\programacion\Ej laboratorio\Programacion 2\Manejo de archivos\Manejo de archivos\obj\Debug\Manejo de archivos.csproj.SuggestedBindingRedirects.cache
+C:\programacion\Ej laboratorio\Programacion 2\Manejo de archivos\Manejo de archivos\obj\Debug\Manejo de archivos.csproj.CoreCompileInputs.cache
+C:\programacion\Ej laboratorio\Programacion 2\Manejo de archivos\Manejo de archivos\obj\Debug\Manejo de archivos.exe
+C:\programacion\Ej laboratorio\Programacion 2\Manejo de archivos\Manejo de archivos\obj\Debug\Manejo de archivos.pdb

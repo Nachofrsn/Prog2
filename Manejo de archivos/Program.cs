@@ -62,12 +62,12 @@ namespace ConsoleApp7
                         //LEER RENGLON POR RENGLON
                         string renglon = lector.ReadLine();
                         //SEPARAR VALORES DENTRO DEL RENGLON
-                        string[] vector = renglon.Split(';');                    
+                        string[] vector = renglon.Split(';');
 
                         Console.WriteLine("ingrese legajo a buscar");
                         int busqueda = int.Parse(Console.ReadLine());
                         string cambio = busqueda.ToString();
-                      
+
                         for (int i = 0; i < vector.Length; i++)
                         {
                             if (vector[i] == cambio)
@@ -85,30 +85,29 @@ namespace ConsoleApp7
             Console.ReadKey();
         }
 
-            static void Entradas(out int legajo, out int edad, out string nombre, out string apellido, out string direccion, out DateTime fecha, out int sueldo)
-            {
-                Console.WriteLine("Ingrese legajo");
-                legajo = int.Parse(Console.ReadLine());
-                string Cambio = legajo.ToString();
+        static void Entradas(out int legajo, out int edad, out string nombre, out string apellido, out string direccion, out DateTime fecha, out int sueldo)
+        {
+            Console.WriteLine("Ingrese legajo");
+            legajo = int.Parse(Console.ReadLine());
+            string Cambio = legajo.ToString();
 
-                Console.WriteLine("Ingrese edad");
-                edad = int.Parse(Console.ReadLine());
+            Console.WriteLine("Ingrese edad");
+            edad = int.Parse(Console.ReadLine());
 
-                Console.WriteLine("Ingrese nombre");
-                nombre = Console.ReadLine();
+            Console.WriteLine("Ingrese nombre");
+            nombre = Console.ReadLine();
 
-                Console.WriteLine("Ingrese apellido");
-                apellido = Console.ReadLine();
+            Console.WriteLine("Ingrese apellido");
+            apellido = Console.ReadLine();
 
-                Console.WriteLine("Ingrese direccion");
-                direccion = Console.ReadLine();
+            Console.WriteLine("Ingrese direccion");
+            direccion = Console.ReadLine();
 
-                Console.WriteLine("Ingrese fecha");
-                fecha = DateTime.Parse(Console.ReadLine());
+            Console.WriteLine("Ingrese fecha");
+            fecha = DateTime.Parse(Console.ReadLine());
 
-                Console.WriteLine("Ingrese sueldo");
-                sueldo = int.Parse(Console.ReadLine());
-            }
+            Console.WriteLine("Ingrese sueldo");
+            sueldo = int.Parse(Console.ReadLine());
+        }
     }
 }
-
