@@ -33,8 +33,8 @@ namespace POO
             A.Nombre = "lucas";
             Console.WriteLine(A.Apelnom);
             Console.WriteLine(B.Apelnom);
-            */
-
+            
+            
             ClaseCaja cajita;
             cajita = new ClaseCaja();
             cajita.AltoCM = 10;
@@ -63,7 +63,7 @@ namespace POO
             {
                 Console.WriteLine($"{deposito[i].AltoCM}-{deposito[i].PesoKG}-{deposito[i].Contenido}-{deposito[i].CodigoInterno}");
             }
-            */
+            
             foreach(ClaseCaja aux in deposito)
             {
                 Console.WriteLine($"{aux.AltoCM}-{aux.PesoKG}-{aux.Contenido}-{aux.CodigoInterno}");
@@ -74,6 +74,32 @@ namespace POO
                 } 
             }
             Console.WriteLine($"{cajapesada}");
+            */
+            ClaseCaja aux = new ClaseCaja();
+            ClaseCamion camion = new ClaseCamion("A-101","Garcia", 20);
+            ClaseCaja A = new ClaseCaja("102", "manzanas", 10, 20, 5, 10, "madera");
+            if (camion.AgregarCaja(A) == true)
+            {
+                Console.WriteLine("caja agregada con exito");
+            }
+            else
+            {
+                Console.WriteLine("caja excede peso disponible");
+            }
+
+            ClaseCaja B = new ClaseCaja("101", "manzanas", 10, 20, 5, 10, "madera");
+            if (camion.AgregarCaja(A) == true)
+            {
+                Console.WriteLine("caja agregada con exito");
+            }
+            else
+            {
+                Console.WriteLine("caja excede peso disponible");
+            }
+
+            camion.RecuperarDatosCaja(1, out aux);
+            Console.WriteLine(aux.CodigoInterno);
+
             Console.ReadKey();
         }
     }
