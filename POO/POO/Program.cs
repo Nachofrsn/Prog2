@@ -75,6 +75,8 @@ namespace POO
             }
             Console.WriteLine($"{cajapesada}");
             */
+
+            /*
             ClaseCaja aux = new ClaseCaja();
             ClaseCamion camion = new ClaseCamion("A-101","Garcia", 20);
             ClaseCaja A = new ClaseCaja("102", "manzanas", 10, 20, 5, 10, "madera");
@@ -99,6 +101,14 @@ namespace POO
 
             camion.RecuperarDatosCaja(1, out aux);
             Console.WriteLine(aux.CodigoInterno);
+            */
+
+            ClaseAutos Ferrari = new ClaseAutos();
+            Ferrari.Motor = "V8";
+            Ferrari.Patente = "00058";
+            Console.WriteLine(Ferrari.Auto);
+
+
 
             Console.ReadKey();
         }

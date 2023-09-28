@@ -8,9 +8,10 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>POO</RootNamespace>
     <AssemblyName>POO</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -42,7 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="ClaseCamion.cs" />
+    <Compile Include="ClaseAutos.cs" />
+    <Compile Include="ClaseCaja.cs" />
+    <Compile Include="ClaseFutbol.cs" />
+    <Compile Include="ClasePersona.cs" />
+    <Compile Include="ClasePolitica.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

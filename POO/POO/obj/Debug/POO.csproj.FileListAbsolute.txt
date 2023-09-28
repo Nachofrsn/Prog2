@@ -8,7 +8,8 @@ C:\Users\icordero\source\repos\POO\POO\obj\Debug\POO.pdb
 C:\Users\icordero\Desktop\Prog2\POO\POO\bin\Debug\POO.exe.config
 C:\Users\icordero\Desktop\Prog2\POO\POO\bin\Debug\POO.exe
 C:\Users\icordero\Desktop\Prog2\POO\POO\bin\Debug\POO.pdb
-C:\Users\icordero\Desktop\Prog2\POO\POO\obj\Debug\POO.csprojResolveAssemblyReference.cache
 C:\Users\icordero\Desktop\Prog2\POO\POO\obj\Debug\POO.csproj.CoreCompileInputs.cache
 C:\Users\icordero\Desktop\Prog2\POO\POO\obj\Debug\POO.exe
 C:\Users\icordero\Desktop\Prog2\POO\POO\obj\Debug\POO.pdb
+C:\Users\icordero\Desktop\Prog2\POO\POO\obj\Debug\POO.csproj.AssemblyReference.cache
+C:\Users\icordero\Desktop\Prog2\POO\POO\obj\Debug\POO.csproj.SuggestedBindingRedirects.cache
