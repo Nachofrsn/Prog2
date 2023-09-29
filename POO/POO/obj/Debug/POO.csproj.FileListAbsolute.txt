@@ -13,3 +13,11 @@ C:\Users\icordero\Desktop\Prog2\POO\POO\obj\Debug\POO.exe
 C:\Users\icordero\Desktop\Prog2\POO\POO\obj\Debug\POO.pdb
 C:\Users\icordero\Desktop\Prog2\POO\POO\obj\Debug\POO.csproj.AssemblyReference.cache
 C:\Users\icordero\Desktop\Prog2\POO\POO\obj\Debug\POO.csproj.SuggestedBindingRedirects.cache
+C:\Users\corde\Desktop\Facu\Prog2\POO\POO\bin\Debug\POO.exe.config
+C:\Users\corde\Desktop\Facu\Prog2\POO\POO\bin\Debug\POO.exe
+C:\Users\corde\Desktop\Facu\Prog2\POO\POO\bin\Debug\POO.pdb
+C:\Users\corde\Desktop\Facu\Prog2\POO\POO\obj\Debug\POO.csproj.AssemblyReference.cache
+C:\Users\corde\Desktop\Facu\Prog2\POO\POO\obj\Debug\POO.csproj.SuggestedBindingRedirects.cache
+C:\Users\corde\Desktop\Facu\Prog2\POO\POO\obj\Debug\POO.csproj.CoreCompileInputs.cache
+C:\Users\corde\Desktop\Facu\Prog2\POO\POO\obj\Debug\POO.exe
+C:\Users\corde\Desktop\Facu\Prog2\POO\POO\obj\Debug\POO.pdb

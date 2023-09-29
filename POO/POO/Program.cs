@@ -108,8 +108,24 @@ namespace POO
             Ferrari.Patente = "00058";
             Console.WriteLine(Ferrari.Auto);
 
+            ClaseFutbol A = new ClaseFutbol(20, "Boca");
+            ClaseFutbol B = new ClaseFutbol(21, "River");
+            ClaseFutbol C = new ClaseFutbol(20, "Racing");
+            ClaseFutbol D = new ClaseFutbol(22, "Independiente");
 
-
+            List<ClaseFutbol> claseFutbol = new List<ClaseFutbol>();
+            claseFutbol.Add(A);
+            claseFutbol.Add(B);
+            claseFutbol.Add(C);
+            claseFutbol.Add(D);
+            for (int a = 0; a < claseFutbol.Count; a++)
+            {
+                Console.WriteLine(claseFutbol[a].Jugadores + " " + claseFutbol[a].Nombre);
+            }
+            if (A.AgregarCapitan("Boca", "Tevez"))
+            {
+                Console.WriteLine(A.Capitan);
+            }
             Console.ReadKey();
         }
     }
