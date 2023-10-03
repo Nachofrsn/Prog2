@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>POO</RootNamespace>
     <AssemblyName>POO</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFrameworkProfile />
@@ -44,11 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClaseCamion.cs" />
-    <Compile Include="ClaseAutos.cs" />
+    <Compile Include="Jugador.cs" />
     <Compile Include="ClaseCaja.cs" />
-    <Compile Include="ClaseFutbol.cs" />
     <Compile Include="ClasePersona.cs" />
     <Compile Include="ClasePolitica.cs" />
+    <Compile Include="Futbol.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -102,30 +102,26 @@ namespace POO
             camion.RecuperarDatosCaja(1, out aux);
             Console.WriteLine(aux.CodigoInterno);
             */
+            Futbol Boca = new Futbol(20,"Bianchi");
 
-            ClaseAutos Ferrari = new ClaseAutos();
-            Ferrari.Motor = "V8";
-            Ferrari.Patente = "00058";
-            Console.WriteLine(Ferrari.Auto);
+            Jugador A = new Jugador();
+            A.Nombre = "Ivan";
+            A.Numero = 10;
 
-            ClaseFutbol A = new ClaseFutbol(20, "Boca");
-            ClaseFutbol B = new ClaseFutbol(21, "River");
-            ClaseFutbol C = new ClaseFutbol(20, "Racing");
-            ClaseFutbol D = new ClaseFutbol(22, "Independiente");
-
-            List<ClaseFutbol> claseFutbol = new List<ClaseFutbol>();
-            claseFutbol.Add(A);
-            claseFutbol.Add(B);
-            claseFutbol.Add(C);
-            claseFutbol.Add(D);
-            for (int a = 0; a < claseFutbol.Count; a++)
+            List<Jugador> equipo = new List <Jugador>();
+            if (Boca.AgregarJugador(A) == true)
             {
-                Console.WriteLine(claseFutbol[a].Jugadores + " " + claseFutbol[a].Nombre);
+                Console.WriteLine("Jugador agregado");
+                equipo.Add(A);
             }
-            if (A.AgregarCapitan("Boca", "Tevez"))
+            else Console.WriteLine("Limite maximo de jugadores en el equipo");
+
+            for (int a = 0; a < equipo.Count; a++)
             {
-                Console.WriteLine(A.Capitan);
+                Console.WriteLine(equipo[a].Numero + "," + equipo[a].Nombre);
             }
+
+            Boca.BuscarJugador("Ivan");
             Console.ReadKey();
         }
     }
