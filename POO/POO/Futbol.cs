@@ -8,7 +8,7 @@ namespace POO
 {
     class Futbol
     {
-        private List<Jugador> _equiposFutbol;
+        private List<Jugador> _equiposFutbol; //Relacion de ensamble (contiene y utiliza)
         private string _tecnico;
         private int _cantJugadores;
 
