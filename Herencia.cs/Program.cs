@@ -26,6 +26,7 @@ namespace Herencia.cs
             Escaleno.Info();
             rec.Info();
 
+            rec.Listar(); //PROPIEDAD VIRTUAL
             Console.ReadKey();
         }
     }

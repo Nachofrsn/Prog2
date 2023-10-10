@@ -27,5 +27,9 @@ namespace Herencia.cs
         }
 
         public abstract void Info();
+        public virtual void Listar()
+        {
+            Console.WriteLine($"Cantidad de lados: {CantLados}\nPerimetro: {Pm}\nTipo: {this.GetType()}");
+        }
     }
 }

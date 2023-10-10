@@ -5,3 +5,10 @@ C:\Users\icordero\source\repos\Herencia.cs\Herencia.cs\bin\Debug\Herencia.cs.exe
 C:\Users\icordero\source\repos\Herencia.cs\Herencia.cs\bin\Debug\Herencia.cs.pdb
 C:\Users\icordero\source\repos\Herencia.cs\Herencia.cs\obj\Debug\Herencia.cs.exe
 C:\Users\icordero\source\repos\Herencia.cs\Herencia.cs\obj\Debug\Herencia.cs.pdb
+C:\Users\icordero\Desktop\Prog2\Herencia.cs\bin\Debug\Herencia.cs.exe.config
+C:\Users\icordero\Desktop\Prog2\Herencia.cs\bin\Debug\Herencia.cs.exe
+C:\Users\icordero\Desktop\Prog2\Herencia.cs\bin\Debug\Herencia.cs.pdb
+C:\Users\icordero\Desktop\Prog2\Herencia.cs\obj\Debug\Herencia.cs.csproj.AssemblyReference.cache
+C:\Users\icordero\Desktop\Prog2\Herencia.cs\obj\Debug\Herencia.cs.csproj.CoreCompileInputs.cache
+C:\Users\icordero\Desktop\Prog2\Herencia.cs\obj\Debug\Herencia.cs.exe
+C:\Users\icordero\Desktop\Prog2\Herencia.cs\obj\Debug\Herencia.cs.pdb
